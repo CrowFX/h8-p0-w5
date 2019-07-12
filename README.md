@@ -8,10 +8,11 @@
 5. [Exercises 17](../master/exercise-17.js) Kali Terus Rekursif
 
 # Completed Projects (Other Branch)
-# WIP
 6. [Exercises 5](../master/exercise-05.js) Damage Calculation (Still in question)
+7. [Exercises 6](../master/exercise-06.js) Melee Ranged Grouping
+
+# WIP
+8. [Exercises 7](../master/exercise-07.js) Hapus Simbol
 
 # Future Works
-7. [Exercises 6](../master/exercise-06.js) Melee Ranged Grouping
-8. [Exercises 7](../master/exercise-07.js) Hapus Simbol
 9. [Exercises 8](../master/exercise-08.js) Cari Pelaku
