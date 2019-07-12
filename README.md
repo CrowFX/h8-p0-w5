@@ -1,12 +1,12 @@
 # Hacktiv8 - Phase 0 - Week 5 Exercises
 
 # Completed Projects
-
-# WIP
 1. [Exercises 13](../master/exercise-13.js) Most Frequent Largest Numbers
 
-# Future Works
+# WIP
 2. [Exercises 14](../master/exercise-14.js) Password Generator
+
+# Future Works
 3. [Exercises 15](../master/exercise-15.js) Makan Terus Rekursif
 4. [Exercises 16](../master/exercise-16.js) Total Digit Rekursif
 5. [Exercises 17](../master/exercise-17.js) Kali Terus Rekursif
