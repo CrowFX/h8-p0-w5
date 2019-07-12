@@ -14,6 +14,7 @@
 2. [Exercises 6](../branched/exercise-06.js) Melee Ranged Grouping
 
 # WIP
+Done :)
 
 # Future Works
 Done :)
