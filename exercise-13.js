@@ -1,17 +1,33 @@
 function sorting(arrNumber) {
-    arrNumber.sort(function sorted(a , b) {return a - b;});
+    let flag = true;
+    let holder = [];
+    while (flag) {
+        flag = false;
+        for (let i = 0; i < arrNumber.length - 1; i++) {
+            if (arrNumber[i + 1] > arrNumber[i] ) {
+                holder = [];
+                holder.push(arrNumber[i + 1]);
+                arrNumber[i + 1] = arrNumber[i];
+                arrNumber[i] = holder[0];
+                flag = true;
+            }
+        }
+    }
     return arrNumber;
 }   
 
 function getTotal(arrNumber) {
     let count = 0;
-    let highest = arrNumber[arrNumber.length - 1];
+    let highest = arrNumber[0];
     if (arrNumber.length === 0) {
         return [];
     }
-    for (let i = 1; i < arrNumber.length; i++) {
+    for (let i = 0; i < arrNumber.length; i++) {
         if (highest === arrNumber[i]) {
             count++;
+            if (highest > arrNumber[i]) {
+                break;
+            }
         }
     }
     return 'angka paling besar adalah ' + highest + ' dan jumlah kemunculan sebanyak ' + count + ' kali';
