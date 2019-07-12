@@ -7,13 +7,13 @@
 4. [Exercises 16](../master/exercise-16.js) Total Digit Rekursif
 5. [Exercises 17](../master/exercise-17.js) Kali Terus Rekursif
 6. [Exercises 7](../master/exercise-07.js) Hapus Simbol
+7. [Exercises 8](../master/exercise-08.js) Cari Pelaku
 
 # Completed Projects (Other Branch)
 1. [Exercises 5](../branched/exercise-05.js) Damage Calculation (Still in question)
 2. [Exercises 6](../branched/exercise-06.js) Melee Ranged Grouping
 
 # WIP
-7. [Exercises 8](../master/exercise-08.js) Cari Pelaku
 
 # Future Works
 Done :)
