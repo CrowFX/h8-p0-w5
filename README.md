@@ -9,7 +9,7 @@
 
 # Completed Projects (Other Branch)
 # WIP
-6. [Exercises 5](../master/exercise-05.js) Damage Calculation
+6. [Exercises 5](../master/exercise-05.js) Damage Calculation (Still in question)
 
 # Future Works
 7. [Exercises 6](../master/exercise-06.js) Melee Ranged Grouping
