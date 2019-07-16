@@ -4,13 +4,17 @@ function meleeRangedGrouping(str) {
     };
     let melee = [];
     let ranged = [];
+    //Split one big string into array
     let group = str.split(',');
     let placeHolder = [];
+    //What the result would be
     let result = [ranged, melee];
+    //Split grouped string into array
     for (let i = 0; i < group.length; i++) {
         temp = group[i].split('-');
         placeHolder.push(temp);
     }
+    //Group heroes based on index 1 of said heroes.
     for (let i = 0; i < placeHolder.length; i++) {
         if (placeHolder[i][1] === 'Ranged') {
             ranged.push(placeHolder[i][0]);
