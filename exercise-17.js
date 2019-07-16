@@ -1,9 +1,6 @@
-let result = 0;
-let tempStr = '';
-let temp = 1;
-
 function kaliTerusRekursif(angka) {
-    temp = 1;
+    let temp = 1;
+    let tempStr = '';
     if (angka < 10) {
         return angka;
     }
