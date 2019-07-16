@@ -10,7 +10,7 @@
 7. [Exercises 8](../master/exercise-08.js) Cari Pelaku
 
 # Completed Projects (Other Branch)
-1. [Exercises 5](../branched/exercise-05.js) Damage Calculation (Still in question)
+1. [Exercises 5](../branched/exercise-05.js) Damage Calculation
 2. [Exercises 6](../branched/exercise-06.js) Melee Ranged Grouping
 
 # WIP
