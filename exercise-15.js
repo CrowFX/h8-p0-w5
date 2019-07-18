@@ -1,13 +1,6 @@
-let temp = 0;
-let counter = 0;
 function makanTerusRekursif(waktu) {
-    if (waktu <= 0) {
-        counter = temp;
-        temp = 0;
-        return counter;
-    }
-    temp++;
-    return makanTerusRekursif(waktu - 15);
+    if (waktu <= 0) {return 0;}
+    return 1 + makanTerusRekursif(waktu - 15)
 }   
 
 // TEST CASES

@@ -1,14 +1,6 @@
-let sum = 0;
-let temp = 0;
 function totalDigitRekursif(angka) {
-    if (angka < 10) {
-        temp += angka;
-        sum = temp;
-        temp = 0;
-        return sum;
-    }
-    temp += angka % 10;
-    return totalDigitRekursif(Math.floor(angka / 10))
+    if (angka < 10) {return angka}
+    return angka % 10 + totalDigitRekursif(Math.floor(angka / 10))
 }
 
 // TEST CASES
