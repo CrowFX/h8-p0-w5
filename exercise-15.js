@@ -1,7 +1,9 @@
-function makanTerusRekursif(waktu) {
+/* function makanTerusRekursif(waktu) {
     if (waktu <= 0) {return 0;}
     return 1 + makanTerusRekursif(waktu - 15)
-}   
+}  */  
+// Refactor
+const makanTerusRekursif = (waktu) => waktu <= 0 ? 0 : 1 + makanTerusRekursif(waktu - 15) 
 
 // TEST CASES
 console.log(makanTerusRekursif(66)); // 5
