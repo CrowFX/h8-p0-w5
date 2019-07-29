@@ -1,5 +1,5 @@
 function kaliTerusRekursif(angka) {
-    let temp = 1;
+/*     let temp = 1;
     let tempStr = '';
     if (angka < 10) {
         return angka;
@@ -8,7 +8,8 @@ function kaliTerusRekursif(angka) {
     for (let i = 0; i < tempStr.length; i++) {
         temp *= Number(tempStr[i]);
     }
-    return kaliTerusRekursif(temp)
+    return kaliTerusRekursif(temp) */
+    return angka < 10 ? angka : kaliTerusRekursif(String(angka).split('').map(x => Number(x)).reduce((a, b) => a * b))
 }
 
 // TEST CASES
