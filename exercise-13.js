@@ -1,20 +1,19 @@
 function sorting(arrNumber) {
-    let flag = true;
-    let holder = [];
-    while (flag) {
+    let holder;
+    let flag;
+    do {
         flag = false;
         for (let i = 0; i < arrNumber.length - 1; i++) {
-            if (arrNumber[i + 1] > arrNumber[i] ) {
-                holder = [];
-                holder.push(arrNumber[i + 1]);
+            if (arrNumber[i + 1] > arrNumber[i]) {
+                holder = arrNumber[i + 1];
                 arrNumber[i + 1] = arrNumber[i];
-                arrNumber[i] = holder[0];
+                arrNumber[i] = holder;
                 flag = true;
             }
         }
-    }
+    } while (flag)
     return arrNumber;
-}   
+}
 
 function getTotal(arrNumber) {
     let count = 0;
@@ -34,6 +33,7 @@ function getTotal(arrNumber) {
 }
 
 function mostFrequentLargestNumbers(arrNumber) {
+    if (arrNumber.length === 0) return "''"
     var listSort = sorting(arrNumber);
     var countHighest = getTotal(listSort);
     return countHighest;
