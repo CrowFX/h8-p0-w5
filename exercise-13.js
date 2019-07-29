@@ -16,20 +16,21 @@ function sorting(arrNumber) {
 }
 
 function getTotal(arrNumber) {
-    let count = 0;
-    let highest = arrNumber[0];
-    if (arrNumber.length === 0) {
-        return [];
-    }
-    for (let i = 0; i < arrNumber.length; i++) {
-        if (highest === arrNumber[i]) {
-            count++;
-            if (highest > arrNumber[i]) {
-                break;
-            }
-        }
-    }
-    return 'angka paling besar adalah ' + highest + ' dan jumlah kemunculan sebanyak ' + count + ' kali';
+    // let count = 0;
+    // let highest = arrNumber[0];
+    // if (arrNumber.length === 0) {
+    //     return [];
+    // }
+    // for (let i = 0; i < arrNumber.length; i++) {
+    //     if (highest === arrNumber[i]) {
+    //         count++;
+    //         if (highest > arrNumber[i]) {
+    //             break;
+    //         }
+    //     }
+    // }
+    // return 'angka paling besar adalah ' + highest + ' dan jumlah kemunculan sebanyak ' + count + ' kali';
+    return `angka paling besar adalah ${arrNumber[0]} dan jumlah kemunculan sebanyak ${arrNumber.filter(x => x === arrNumber[0]).length} kali`
 }
 
 function mostFrequentLargestNumbers(arrNumber) {
