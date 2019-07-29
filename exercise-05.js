@@ -8,7 +8,7 @@ function attack(damage) {
  */
 //Recursive damageCalculation to assume multi-hit attack
 function damageCalculation(numberOfAttacks, damagePerAttack) {
-    console.log(`Player hits enemy with ${attack(damagePerAttack)} attack damage`);
+    // console.log(`Player hits enemy with ${attack(damagePerAttack)} attack damage`);
     return numberOfAttacks === 1 ? attack(damagePerAttack) : attack(damagePerAttack) + damageCalculation(numberOfAttacks - 1, damagePerAttack)
 }
 
