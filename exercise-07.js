@@ -1,7 +1,5 @@
 function hapusSimbol(str) {
-    let noSymbol = str.match(/[A-Za-z\d]+/g);
-    noSymbol = noSymbol.join('');
-    return noSymbol;
+    return str.match(/[A-Za-z\d]+/g).join('')
 }
 
 // TEST CASES
