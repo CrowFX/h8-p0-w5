@@ -1,7 +1,5 @@
 function cariPelaku(str) {
-    let target = str.match(/abc/gi)
-    target = target.length;
-    return target;
+    return str.match(/abc/gi) === null ? 0 : str.match(/abc/gi).length;
   }
   
   // TEST CASES
